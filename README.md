@@ -35,11 +35,11 @@ Then type `$i-have-adhd` to apply the output style explicitly. The skill can als
 
 </details>
 
-Everything else — verify, update, disable, uninstall, troubleshooting — lives in [INSTALL.md](./INSTALL.md).
+Install instructions for other coding agents live in [INSTALL.md](./INSTALL.md).
 
 ## What it does
 
-A Claude Code skill that stops burying the answer. Action first. Steps numbered. No "Hope this helps!"
+A skill for Claude Code, Codex, and Cursor that stops burying the answer. Action first. Steps numbered. No "Hope this helps!"
 
 
 ## What changes
