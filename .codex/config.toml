@@ -1,0 +1,6 @@
+# Dogfood-only: fires when running `codex` with cwd inside this cloned repo.
+# Not distributed to end users who install via .codex-plugin/ (npx skills add
+# copies skill files, not this hook config). See hooks/inject-skill.js.
+[features]
+
+hooks = true
