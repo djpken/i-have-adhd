@@ -1,4 +1,18 @@
 {
   "name": "i-have-adhd",
-  "description": "Shape Claude Code output for an ADHD reader: lead with the next action, number steps, suppress tangents, restate state, make wins visible."
+  "description": "Shape Claude Code output for an ADHD reader: lead with the next action, number steps, suppress tangents, restate state, make wins visible.",
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${CLAUDE_PLUGIN_ROOT}/hooks/inject-skill.js\"",
+            "timeout": 5,
+            "statusMessage": "Loading ADHD-friendly output mode..."
+          }
+        ]
+      }
+    ]
+  }
 }
