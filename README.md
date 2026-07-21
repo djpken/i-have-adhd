@@ -37,6 +37,8 @@ Then type `$i-have-adhd` to apply the output style explicitly. The skill can als
 
 Install instructions for other coding agents live in [INSTALL.md](./INSTALL.md).
 
+繁體中文版說明請見 [README.zh-TW.md](./README.zh-TW.md)。
+
 ## What it does
 
 A skill for Claude Code, Codex, and Cursor that stops burying the answer. Action first. Steps numbered. No "Hope this helps!"
